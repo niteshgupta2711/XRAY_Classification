@@ -1,0 +1,7 @@
+tensorflow 
+mlflow
+tensorflow-probability
+pandas
+scikit-learn
+matplotlib
+seaborn
