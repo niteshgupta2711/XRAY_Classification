@@ -13,6 +13,7 @@ class DataIngestion:
         self.config=read_yaml(config_path)
         self.train_data=os.path.join(self.config.DATA_ROOT,self.config.TRAIN_DATA)
         self.test_data=os.path.join(self.config.DATA_ROOT,self.config.TEST_DATA)
+        self.val_data=os.path.join(self.config.DATA_ROOT,self.config.VAL_DATA)
         self.log.info('DataIngestion Initialized')
     
     def _parse_records(self,example_proto):
@@ -34,4 +35,9 @@ class DataIngestion:
     def get_test_data(self,batch,repeat,shuffle):
         self.dataset=tf.data.TFRecordDataset(self.test_data,num_parallel_reads=4)
         self.log.info('test dataset has been made')
+        return self.dataset.map(self._parse_records).shuffle(shuffle).repeat(repeat).batch(batch).prefetch(1)
+
+    def get_val_data(self,batch,repeat,shuffle):
+        self.dataset=tf.data.TFRecordDataset(self.val_data,num_parallel_reads=4)
+        self.log.info('val dataset has been made')
         return self.dataset.map(self._parse_records).shuffle(shuffle).repeat(repeat).batch(batch).prefetch(1)

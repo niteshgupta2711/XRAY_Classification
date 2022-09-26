@@ -3,6 +3,7 @@ from common.get_train import TrainData
 import mlflow
 from common import read_yaml
 import argparse
+import matplotlib.pyplot as plt
 
 def train(config_path):
     tr=TrainData(config_path)
@@ -12,7 +13,11 @@ def train(config_path):
 
 
     model=tr._get_model_()
-    tr.train()
+    history=tr.train()
+    plt.plot(history.history)
+    plt.savefig('./train_and_validation_curve.png')
+    mlflow.log_artifact('./train_and_validation_curve.png',artifact_path='plots')
+        
     mlflow.keras.log_model(model,artifact_path='models')
 
     

@@ -1,6 +1,8 @@
 DATA_ROOT: data
-TRAIN_DATA: test.tfrecord
+TRAIN_DATA: train.tfrecord
 TEST_DATA: test.tfrecord
+VAL_DATA: val.tfrecord
+
 
 DATA_INGESTION:
   BATCH: 32

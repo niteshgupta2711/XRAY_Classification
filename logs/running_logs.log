@@ -23,3 +23,11 @@
 [2022-09-26 16:28:18,137: INFO: get_data]: train dataset has been made
 [2022-09-26 16:33:46,226: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
 [2022-09-26 16:33:51,788: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpp1d_l2lz\model\data\model\assets
+[2022-09-26 19:42:40,364: INFO: get_data]: DataIngestion Initialized
+[2022-09-26 19:42:46,705: INFO: get_train]: model has been loaded None
+[2022-09-26 19:45:28,103: INFO: get_data]: DataIngestion Initialized
+[2022-09-26 19:45:32,923: INFO: get_train]: model has been loaded None
+[2022-09-26 19:45:32,988: INFO: get_data]: test dataset has been made
+[2022-09-26 19:45:33,362: INFO: get_data]: train dataset has been made
+[2022-09-26 20:11:17,460: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-26 20:11:24,891: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpoumwr6eu\model\data\model\assets
