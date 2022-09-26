@@ -1,0 +1,3 @@
+DATA_ROOT: data
+TRAIN_DATA: train.tfrecord
+TEST_DATA: test.tfrecord

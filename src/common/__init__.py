@@ -1,6 +1,18 @@
 import os
 import sys
 import logging
+import yaml
+from box import ConfigBox
+from common.get_data import *
+
+
+
+def read_yaml(path):
+    with open(path) as f:
+        di=yaml.safe_load(f)
+    return ConfigBox(di)
+    
+    
 
 logging_str = "[%(asctime)s: %(levelname)s: %(module)s]: %(message)s"
 log_dir = "logs"
