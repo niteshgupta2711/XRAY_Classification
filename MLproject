@@ -5,6 +5,21 @@ conda_env: conda.yaml
 entry_points:
     main:
         parameters:
-            alpha: {type: float, default: 0.2}
-            l1_ratio: {type: float, default: 0.5}
-        command: "python demo.py -a {alpha} -l1 {l1_ratio}"
+            config: {type: str , default: 'config/config.yaml'}
+        command: "python main.py -c {config}"
+
+    ingest_data:
+        parameters:
+            config: {type: str , default: 'config/config.yaml'}
+        command: "python src/ingestion.py -c {config}"
+
+    train:
+        parameters:
+            config: {type: str , default: 'config/config.yaml'}
+        command: "python src/train.py -c {config}"
+    
+    validate:
+        parameters:
+            config: {type: str , default: 'config/config.yaml'}
+        command: "python src/validation.py -c {config}"
+    
