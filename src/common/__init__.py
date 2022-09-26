@@ -3,7 +3,7 @@ import sys
 import logging
 import yaml
 from box import ConfigBox
-from common.get_data import *
+
 
 
 
@@ -27,4 +27,4 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout),
     ])
 
-loggger = logging.getLogger("deepClassifierLogger")
+logger = logging.getLogger("deepClassifierLogger")

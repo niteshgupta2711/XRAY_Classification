@@ -1,9 +1,9 @@
-from common import loggger, read_yaml
+from common import logger, read_yaml
 import argparse
 import mlflow
 import os
 import tensorflow as tf
-from common import DataIngestion
+
 
 
 """
@@ -17,7 +17,7 @@ The following module provides you with a tf.data.Dataset object that allows incr
 """
 def main(path):
     mlflow.set_tracking_uri("http://127.0.0.1:5000",)
-    loggger.info('tracking uri has been set ')
+    logger.info('tracking uri has been set ')
     data_config=read_yaml(path)
     mlflow.log_params({'data_config':path,
     'data_root':data_config.DATA_ROOT, 'train_record':data_config.TRAIN_DATA,'test_records':data_config.TEST_DATA 
