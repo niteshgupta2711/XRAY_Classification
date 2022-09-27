@@ -22,6 +22,9 @@ def main(path):
     mlflow.log_params({'data_config':path,
     'data_root':data_config.DATA_ROOT, 'train_record':data_config.TRAIN_DATA,'test_records':data_config.TEST_DATA 
     })
+    with open('./ingestion.txt','w') as f:
+        f.write('The ingestion file here is from  ditect tf records')
+    mlflow.log_artifact('./ingestion.txt',artifact_path='pretext')
 
 
 

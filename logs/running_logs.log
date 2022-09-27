@@ -31,3 +31,99 @@
 [2022-09-26 19:45:33,362: INFO: get_data]: train dataset has been made
 [2022-09-26 20:11:17,460: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
 [2022-09-26 20:11:24,891: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpoumwr6eu\model\data\model\assets
+[2022-09-27 12:06:27,546: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 12:09:55,060: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 12:10:23,634: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 12:10:29,510: INFO: get_train]: model has been loaded None
+[2022-09-27 12:10:29,667: INFO: get_data]: val dataset has been made
+[2022-09-27 12:10:30,103: INFO: get_data]: train dataset has been made
+[2022-09-27 12:21:16,081: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 12:21:39,445: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 12:21:46,408: INFO: get_train]: model has been loaded None
+[2022-09-27 12:21:46,481: INFO: get_data]: val dataset has been made
+[2022-09-27 12:21:46,880: INFO: get_data]: train dataset has been made
+[2022-09-27 12:31:29,339: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 12:31:36,983: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmp6y0shl61\model\data\model\assets
+[2022-09-27 12:48:18,669: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 12:48:38,807: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 12:48:44,570: INFO: get_train]: model has been loaded None
+[2022-09-27 12:48:44,614: INFO: get_data]: val dataset has been made
+[2022-09-27 12:48:44,814: INFO: get_data]: train dataset has been made
+[2022-09-27 12:55:57,485: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 12:56:04,302: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpzhfmi45p\model\data\model\assets
+[2022-09-27 13:07:46,460: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 13:08:08,731: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 13:08:15,165: INFO: get_train]: model has been loaded None
+[2022-09-27 13:08:15,211: INFO: get_data]: val dataset has been made
+[2022-09-27 13:08:15,434: INFO: get_data]: train dataset has been made
+[2022-09-27 13:15:34,134: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 13:15:40,341: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpcy1zb7my\model\data\model\assets
+[2022-09-27 15:02:00,613: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 15:08:17,418: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 15:10:43,780: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 15:13:54,187: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 15:14:18,083: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 15:14:25,011: INFO: get_train]: model has been loaded None
+[2022-09-27 15:14:25,049: INFO: get_data]: val dataset has been made
+[2022-09-27 15:14:25,237: INFO: get_data]: train dataset has been made
+[2022-09-27 15:24:26,514: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 15:24:33,174: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmp14ft3r4h\model\data\model\assets
+[2022-09-27 15:32:06,275: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 15:32:27,952: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 15:32:34,677: INFO: get_train]: model has been loaded None
+[2022-09-27 15:32:34,733: INFO: get_data]: val dataset has been made
+[2022-09-27 15:32:35,022: INFO: get_data]: train dataset has been made
+[2022-09-27 15:42:10,001: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 15:42:18,663: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmp5ntqavmd\model\data\model\assets
+[2022-09-27 16:34:47,898: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 16:34:48,075: INFO: get_data]: test dataset has been made
+[2022-09-27 19:11:38,781: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 19:11:57,457: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:12:01,370: INFO: get_train]: model has been loaded None
+[2022-09-27 19:12:01,400: INFO: get_data]: val dataset has been made
+[2022-09-27 19:12:01,551: INFO: get_data]: train dataset has been made
+[2022-09-27 19:19:50,403: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 19:19:59,274: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpqps1d25t\model\data\model\assets
+[2022-09-27 19:21:15,429: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:21:15,765: INFO: get_data]: test dataset has been made
+[2022-09-27 19:28:08,318: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:28:08,498: INFO: get_data]: test dataset has been made
+[2022-09-27 19:29:32,187: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:29:32,388: INFO: get_data]: test dataset has been made
+[2022-09-27 19:30:40,182: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:30:40,409: INFO: get_data]: test dataset has been made
+[2022-09-27 19:34:53,937: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:34:54,150: INFO: get_data]: test dataset has been made
+[2022-09-27 19:36:41,482: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 19:37:04,320: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:37:09,281: INFO: get_train]: model has been loaded None
+[2022-09-27 19:37:09,360: INFO: get_data]: val dataset has been made
+[2022-09-27 19:37:09,719: INFO: get_data]: train dataset has been made
+[2022-09-27 19:44:20,320: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 19:44:26,707: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmptl07_r_p\model\data\model\assets
+[2022-09-27 19:45:08,595: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 19:45:08,807: INFO: get_data]: test dataset has been made
+[2022-09-27 20:42:49,677: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 20:43:10,367: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 20:43:15,793: INFO: get_train]: model has been loaded None
+[2022-09-27 20:43:15,855: INFO: get_data]: val dataset has been made
+[2022-09-27 20:43:16,272: INFO: get_data]: train dataset has been made
+[2022-09-27 20:52:46,164: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 20:52:53,522: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpqjf8vkm_\model\data\model\assets
+[2022-09-27 20:53:50,213: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 20:53:50,300: INFO: get_data]: test dataset has been made
+[2022-09-27 21:29:53,456: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 21:30:15,801: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 21:30:21,147: INFO: get_train]: model has been loaded None
+[2022-09-27 21:30:21,204: INFO: get_data]: val dataset has been made
+[2022-09-27 21:30:21,504: INFO: get_data]: train dataset has been made
+[2022-09-27 21:39:50,306: WARNING: save]: Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+[2022-09-27 21:39:58,753: INFO: builder_impl]: Assets written to: C:\Users\Nitesh\AppData\Local\Temp\tmpbdu5e490\model\data\model\assets
+[2022-09-27 21:40:58,097: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 21:40:58,467: INFO: get_data]: test dataset has been made
+[2022-09-27 21:51:39,837: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 22:08:21,420: INFO: ingestion]: tracking uri has been set 
+[2022-09-27 22:08:36,206: INFO: get_data]: DataIngestion Initialized
+[2022-09-27 22:08:40,857: INFO: get_train]: model has been loaded None
+[2022-09-27 22:08:40,919: INFO: get_data]: val dataset has been made
+[2022-09-27 22:08:41,216: INFO: get_data]: train dataset has been made

@@ -1,5 +1,5 @@
 DATA_ROOT: data
-TRAIN_DATA: train.tfrecord
+TRAIN_DATA: val.tfrecord
 TEST_DATA: test.tfrecord
 VAL_DATA: val.tfrecord
 
