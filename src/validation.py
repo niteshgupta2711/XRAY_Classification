@@ -45,7 +45,7 @@ if __name__=='__main__':
     print(os.path.join(model_path,'/data/model/'))
     mlflow.log_param('model_path',model_path)
     mlflow.log_params({'batch':c.DATA_INGESTION.BATCH,'epoch':c.DATA_INGESTION.REPEAT,'shuffle':c.DATA_INGESTION.SHUFFLE})
-    model=mlflow.keras.load_model(f'{model_path}/data/model/')
+    model=mlflow.keras.load_model(f'{model_path}/data/model/',)
     print('______________________ model has been loaded____________________')
     #model(test_data)
     yTrue,ypred=[],[]

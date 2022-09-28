@@ -18,20 +18,22 @@ class TrainData:
         self.max_pool1=tf.keras.layers.MaxPool2D(2)(self.conv2)
         self.batch_n1=tf.keras.layers.BatchNormalization()(self.max_pool1)
         self.flatten=tf.keras.layers.Flatten()(self.batch_n1)
-        self.dense_1=tf.keras.layers.Dense(256,activation='relu')(self.flatten)
-        self.output=tf.keras.layers.Dense(5,activation='softmax')(self.dense_1)
+        #self.dense_1=tf.keras.layers.Dense(1024,activation='relu')(self.flatten)
+        self.dense_2=tf.keras.layers.Dense(256,activation='relu')(self.flatten)
+
+        self.output=tf.keras.layers.Dense(5,activation='softmax')(self.dense_2)
 
         self.model=tf.keras.Model(self.conv1_input,self.output)
         self.model.compile(loss=loss_func,metrics=metrics,optimizer=optim,)
 
         return self.model
     
-    def train(self):
+    def train(self,model):
         self.c=read_yaml(self.config)
         self.batch=self.c.DATA_INGESTION.BATCH
         self.epoch=self.c.DATA_INGESTION.REPEAT
         self.shuffle=self.c.DATA_INGESTION.SHUFFLE
-        self.model=self._get_model_()
+        self.model=model
         self.log.info(f'model has been loaded {self.model.summary()}')
         self.validation_data=self.get_Data.get_val_data(self.batch,self.epoch,self.shuffle)
         self.history=self.model.fit(self.get_Data.get_train_data(self.batch,self.epoch,self.shuffle),epochs=self.epoch,batch_size=self.batch,validation_data=self.validation_data)
