@@ -2,6 +2,7 @@ README.md
 setup.py
 src/common/__init__.py
 src/common/get_data.py
+src/common/get_train.py
 src/deepclassifier_Xray.egg-info/PKG-INFO
 src/deepclassifier_Xray.egg-info/SOURCES.txt
 src/deepclassifier_Xray.egg-info/dependency_links.txt
